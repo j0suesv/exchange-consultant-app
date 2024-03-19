@@ -15,7 +15,8 @@ h1{
 .principal-p{
     display: flex;
     justify-content: center;
-    color: #fff
+    color: #fff;
+    width: 130vh;
 }
 .container{
     display: grid;
@@ -53,6 +54,13 @@ h1{
     width: 100px;
 }
 
+/* Faltaria cambiarle el color */
+.result-data{
+    width: 100px; 
+}
+.result-data p{
+    margin: 0;
+}
 select{
     border: none;
 }
